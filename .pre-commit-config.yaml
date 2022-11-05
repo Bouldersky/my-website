@@ -20,3 +20,4 @@ repos:
     rev: v2.37.0
     hooks:
       - id: commitizen
+        stages: [push]
