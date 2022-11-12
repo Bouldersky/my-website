@@ -10,6 +10,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Skyler Arnold</title>
+</svelte:head>
+
 <div class="gap-4 p-4 grid grid-cols-1 md:grid-cols-3">
 	{#each posts as { title, imgSrc, path }}
 		<BlogPostCard src={imgSrc} {title} {path} />
